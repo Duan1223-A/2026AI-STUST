@@ -77,6 +77,21 @@ project/
 
 執行結果：65 個月中 19 個月正成長、39 個月負成長、7 個月持平。湖西鄉人口呈現自然減少趨勢。
 
+#### GUI 子資料夾 — tkinter 教學
+
+每個檔案聚焦一個概念，循序漸進。tkinter 是 Python 內建模組，**不用額外安裝**。
+
+| 檔案 | 主題 |
+|---|---|
+| `01_第一個視窗.py` | `Tk()` 建立視窗、`title`、`geometry`、`mainloop` |
+| `02_Label文字標籤.py` | `Label` 顯示文字，字型 / 顏色 / 背景色設定 |
+| `03_Button按鈕.py` | `Button` 搭配 `command=函式名` 觸發動作 |
+| `04_Entry輸入框.py` | `Entry` 取得使用者輸入，用 `.get()` 拿值 |
+| `05_pack排版.py` | `pack()` 的 `side` 方向參數（top/bottom/left/right）|
+| `06_grid格狀排版.py` | `grid(row, column)` 表格式排版，`columnspan` 跨欄 |
+| `07_messagebox彈出視窗.py` | 提示 / 警告 / 錯誤 / 是非詢問四種彈窗 |
+| `08_小作品_BMI計算機.py` | 綜合練習：把上面所有元件組成 BMI 小工具 |
+
 ---
 
 ## hello.md
