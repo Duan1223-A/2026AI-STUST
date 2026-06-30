@@ -18,3 +18,4 @@ for i in range(len(b)):#處理每一行
     c.append(str(b[i]).split(","))#把每行的數值換成str在透過split把,分隔的變成單獨的列表元素
     if( i <39): #過濾掉頭跟尾純中文的
         print(c[i][8])
+print(c[1][1])
