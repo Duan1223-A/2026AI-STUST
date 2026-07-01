@@ -22,7 +22,7 @@ def show_lobby():
     pygame.key.stop_text_input()
 
     # 狀態
-    ip_text   = "127.0.0.1"
+    ip_text   = "192.168.1.101"
     id_text   = ""
     shape_idx = 0
     color_idx = 0
